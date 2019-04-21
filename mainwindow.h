@@ -32,6 +32,12 @@ private slots:
 
     void on_actionOpen_audio_file_triggered();
 
+    void on_actionExport_graph_triggered();
+
+    void leerunjsonaudio();
+
+    void showallaudio();
+
 private:
     Ui::MainWindow *ui;
 };
